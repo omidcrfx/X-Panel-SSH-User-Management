@@ -1,5 +1,5 @@
 <?php
-$port = "22";
+$port = "9215";
 $username = "adminuser";
 $password = "adminpass";
 $dbname = "XPanel";
