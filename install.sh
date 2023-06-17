@@ -12,7 +12,7 @@ then echo "Please run as root"
 exit
 fi
 rm -rf /error.log
-sed -i 's/#Port 22/Port 9221/' /etc/ssh/sshd_config
+sed -i 's/#Port 22/Port 9215/' /etc/ssh/sshd_config
 sed -i 's/#Banner none/Banner \/root\/banner.txt/g' /etc/ssh/sshd_config
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 po=$(cat /etc/ssh/sshd_config | grep "^Port")
@@ -27,21 +27,21 @@ if [ -n "$dropb_port" -a "$dropb_port" != "NULL" ]
 then
      dropbear_port=$dropb_port
 else
-     dropbear_port=9218
+     dropbear_port=9211
 fi
 
 if [ -n "$dropb_tls_port" -a "$dropb_tls_port" != "NULL" ]
 then
 dropbear_tls_port=$dropb_tls_port
 else
-     dropbear_tls_port=9213
+     dropbear_tls_port=9212
 fi
 
 if [ -n "$ssh_tls_port" -a "$ssh_tls_port" != "NULL" ]
 then
      sshtls_port=$ssh_tls_port
 else
-     sshtls_port=9214
+     sshtls_port=9213
 fi
 if test -f "/var/www/xpanelport"; then
 domainp=$(cat /var/www/xpanelport | grep "^DomainPanel")
