@@ -1,12 +1,12 @@
 <p align="center">
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/xlogo.png">
+<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/omidcrfx/X-Panel-SSH-User-Management/main/xlogo.png">
 </picture>
   </p> 
 <h1 align="center"/>X Panel</h1>
 <h6 align="center">X Panel SSH User Management<h6>
 <p align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Alirezad07/X-Panel-SSH-User-Management">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/omidcrfx/X-Panel-SSH-User-Management">
 </p>
  
 <p align="center">
@@ -75,12 +75,12 @@ chmod 777 /var/www/html/
 برای نصب کافیست دستور زیر را وارد کنید<br>
 	بعد از بروزرسانی حتما لینک مقابل را با ip و پورت پنل یکبار در مروگر باز کنید  <b>ip:port/reinstall</b><br>
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/omidcrfx/X-Panel-SSH-User-Management/main/install.sh --ipv4)
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/master/fix-call.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/omidcrfx/X-Panel-SSH-User-Management/master/fix-call.sh --ipv4)
 ```
 دستور بالا را در ترمینال وارد کنید سپس برای UDPGW پورت جدید تعریف کنید بهتر است به جای پورت 7300 پورت 7301 یا 7302 را تنظیم کنید
 <br>
@@ -89,11 +89,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Ma
 ## بهینه سازی سرور
 نصب و حذف تنظیمات با دستور زیر 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/TCP-Tweaker --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/omidcrfx/X-Panel-SSH-User-Management/main/TCP-Tweaker --ipv4)
 ```
 ## فعال سازی SSL
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/X-Panel-SSH-User-Management/main/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/omidcrfx/X-Panel-SSH-User-Management/main/ssl.sh --ipv4)
 ```
 با استفاده از دستور بالا می توانید SSL را روی پنل نصب نمائید. به نکات زیر توجه کنید <br>
 1- حتما قبل از نصب SSL پنل را بروز کنید<br>
