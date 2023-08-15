@@ -64,22 +64,22 @@ echo -e "  5)XPanel v2.8"
 echo -ne "${GREEN}\nSelect Version : ${ENDCOLOR}" ;read n
 if [ "$n" != "" ]; then
 if [ "$n" == "1" ]; then
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv34
 fi
 if [ "$n" == "2" ]; then
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv31
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv31
 fi
 if [ "$n" == "3" ]; then
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv30
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv30
 fi
 if [ "$n" == "4" ]; then
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv29
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv29
 fi
 if [ "$n" == "5" ]; then
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv28
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv28
 fi
 else
-linkd=https://api.github.com/repos/Alirezad07/X-Panel-SSH-User-Management/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv34
 fi
 
 if [ "$dmp" != "" ]; then
@@ -410,7 +410,7 @@ sudo phpenmod curl
 PHP_INI=$(php -i | grep /.+/php.ini -oE)
 sed -i 's/extension=intl/;extension=intl/' ${PHP_INI}
 fi
-bash <(curl -Ls https://raw.githubusercontent.com/Alirezad07/Nethogs-Json-main/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/omidcrfx/Nethogs-Json-main/master/install.sh --ipv4)
 mysql -e "create database XPanel;" &
 wait
 mysql -e "CREATE USER '${adminusername}'@'localhost' IDENTIFIED BY '${adminpassword}';" &
