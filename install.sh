@@ -64,22 +64,22 @@ echo -e "  5)XPanel v2.8"
 echo -ne "${GREEN}\nSelect Version : ${ENDCOLOR}" ;read n
 if [ "$n" != "" ]; then
 if [ "$n" == "1" ]; then
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 if [ "$n" == "2" ]; then
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv31
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 if [ "$n" == "3" ]; then
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv30
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 if [ "$n" == "4" ]; then
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv29
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 if [ "$n" == "5" ]; then
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv28
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 else
-linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/xpanelv34
+linkd=https://api.github.com/repos/omidcrfx/X-Panel-SSH-User-Management/releases/tags/v3.4-edited
 fi
 
 if [ "$dmp" != "" ]; then
